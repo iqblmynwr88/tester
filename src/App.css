@@ -13,15 +13,49 @@
   }
 }
 
+.box-10 {
+  padding : 20px;
+}
+.globe {
+  width : 500px;
+  opacity: 0.75;
+  align-text: right;
+  padding-left:80px;
+}
+
+.hexa-pic {
+  width : 500px;
+  opacity: 0.75;
+  align-text: right;
+  padding-left:80px;
+}
+
+.bg-hexa {
+  background-color : #121111;
+}
+
+.blank-hexa {
+  margin: 80px;
+}
+
+.body-hexa {
+  background-color : #121111;
+  display: flex;
+  flex-direction: column;
+  color: #E7DBEC;
+  padding-left: 20px;
+}
+
+
 .App-header {
-  background-color: #282c34;
+  background-color: #121111;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #E7DBEC;
 }
 
 .App-link {
