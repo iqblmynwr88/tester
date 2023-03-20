@@ -1,6 +1,9 @@
 import logo from './Globe.png';
 import banner from './banner.png';
 import icon_secure from './shield.png';
+import icon_edge from './edge.png';
+import icon_website from './website.png';
+import icon_money from './money.png';
 import './App.css';
 
 // For navbar
@@ -50,6 +53,8 @@ function App() {
               <img src={logo} className="globe" alt="logo" />
             </Col>
           </Row>
+          <Row className='blank-hexa'>
+          </Row>
           <Row>
             <Col className='hexa-text-center'>
               <h3>How to stake in our validator?</h3>
@@ -65,23 +70,25 @@ function App() {
             <Col xs lg='12' className='text-center'>
               <h3>Why Stake With US</h3>
             </Col>
-            <Col xs='12' lg='3' className='box-10'>
-              <Col>
-                <img src={icon_secure} className='logo-box' alt="logo" /><span>Some quick example text to build on the card title and make up the
-              bulk of the card's content.</span>
+            <Col xs='12' lg='3'>
+              <Col className='box-10'>
+                <img src={icon_secure} className='logo-box' alt="logo" /><span className='span-logo'>Service is Highly secured with 24/7 Monitoring.</span>
               </Col>
             </Col>
-            <Col xs='12' lg='3' className='box-10'>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            <Col xs='12' lg='3'>
+              <Col className='box-10'>
+                <img src={icon_edge} className='logo-box' alt="logo" /><span className='span-logo'>Fast and Reliable Explorer between chains.</span>
+              </Col>
             </Col>
-            <Col xs='12' lg='3' className='box-10'>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            <Col xs='12' lg='3'>
+              <Col className='box-10'>
+                <img src={icon_website} className='logo-box' alt="logo" /><span className='span-logo'>Provide Public Endpoints for Communities.</span>
+              </Col>
             </Col>
-            <Col xs='12' lg='3' className='box-10'>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            <Col xs='12' lg='3'>
+              <Col className='box-10'>
+                <img src={icon_money} className='logo-box' alt="logo" /><span className='span-logo'>Low Comission and Impressive Uptime with 0 Slashing!.</span>
+              </Col>
             </Col>
           </Row>
         </Container>
