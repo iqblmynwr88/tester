@@ -7,8 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  padding: 5px;
+  margin: 5px;
+}
+
 header {
   margin: 0;
+  font-family: 'Space Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+footer {
+  margin: 0;
+  padding: 10px;
   font-family: 'Space Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,8 +30,6 @@ header {
 code {
   font-family: 'Space Mono', monospace;
 }
-
-
 
 nav {
   font-family: 'Space Mono', monospace;

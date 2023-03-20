@@ -31,6 +31,20 @@
   z-index: 999;
 }
 
+.footer-hexa {
+  background-color: #121111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #E7DBEC;
+  font-size: 12px;
+}
+
+.label-button {
+  margin : auto;
+}
+
 .span-logo {
   padding : 10px;
   z-index: 999;
@@ -67,6 +81,9 @@
   color: #E7DBEC;
 }
 
+bold {
+  color: #D63384;
+}
 
 .App-header {
   background-color: #121111;
