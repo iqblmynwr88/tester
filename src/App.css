@@ -16,11 +16,14 @@
 .box-10 {
   padding : 20px;
 }
+
 .globe {
-  width : 500px;
-  opacity: 0.75;
-  align-text: right;
-  padding-left:80px;
+  overflow: hidden;
+  position: absolute;
+  right: 10%;
+  z-index: 3;
+  width : 600px;
+  opacity: 0.25;
 }
 
 .hexa-pic {

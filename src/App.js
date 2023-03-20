@@ -39,7 +39,7 @@ function App() {
 
           </Row>
           <Row>
-            <Col xs lg="6">
+            <Col xs="12" lg="6">
               <h3>Hi, there 👋🎉</h3>
               <p>welcome to our <b>"home"</b>, yes we may call it home or whatever you want to call it. 🥰🫰</p>
               <br/>
