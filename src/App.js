@@ -1,5 +1,6 @@
 import logo from './Globe.png';
 import banner from './banner.png';
+import icon_secure from './shield.png';
 import './App.css';
 
 // For navbar
@@ -50,7 +51,7 @@ function App() {
             </Col>
           </Row>
           <Row>
-            <Col className='text-center'>
+            <Col className='hexa-text-center'>
               <h3>How to stake in our validator?</h3>
               <br/>
               <p>Hexawolf88 Validators helps investors compound their crypto investments with low commission and advanced support</p>
@@ -65,8 +66,10 @@ function App() {
               <h3>Why Stake With US</h3>
             </Col>
             <Col xs='12' lg='3' className='box-10'>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              <Col>
+                <img src={icon_secure} className='logo-box' alt="logo" /><span>Some quick example text to build on the card title and make up the
+              bulk of the card's content.</span>
+              </Col>
             </Col>
             <Col xs='12' lg='3' className='box-10'>
               Some quick example text to build on the card title and make up the
