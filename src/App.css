@@ -32,13 +32,13 @@
 }
 
 .head-btn {
-  left : 500%;
+  text-align: left;
 }
 
 .logo-btn {
-  padding : 10px;
-  width: 200%;
-  height: 200%;
+  display: block;
+  padding : 3px;
+  width: 100px;
   border-radius: 50%;
   margin: auto;
   z-index: 999;

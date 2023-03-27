@@ -99,6 +99,8 @@ function App() {
               </Col>
             </Col>
           </Row>
+          <br/>
+          <br/>
         </Container>
       </header>
       <header className="App-header">
@@ -110,17 +112,11 @@ function App() {
               <h3>Portofolio | <bold>Joined</bold> as the validator</h3>
               <br/>
             </Col>
-            <Col xs='12' md='6' lg='3'>
-              <a href='https://twitter.com/IqbalMaulaY' className='App-link btn btn-outline-light' target='_blank' rel='nooper noreferrer'><table><tr><td><img src={logo_planq} className='logo-btn' alt="logo" /></td><td><b className='head-btn'>Test</b><p className='desc-btn'>https://planq.network/</p></td></tr></table></a>
+            <Col xs='12' md='2' lg='4'>
+              
             </Col>
-            <Col xs='12' md='6' lg='3'>
-              <a href='https://twitter.com/IqbalMaulaY' className='App-link btn btn-outline-light' target='_blank' rel='nooper noreferrer'><table><tr><td width={'10%'}><img src={logo_planq} className='logo-btn' alt="logo" /></td><td><h5>Test</h5><p>a</p></td></tr></table></a>
-            </Col>
-            <Col xs='12' md='6' lg='3'>
-              <a href='https://twitter.com/IqbalMaulaY' className='App-link btn btn-outline-light' target='_blank' rel='nooper noreferrer'><table><tr><td width={'10%'}><img src={logo_planq} className='logo-btn' alt="logo" /></td><td><h5>Test</h5><p>a</p></td></tr></table></a>
-            </Col>
-            <Col xs='12' md='6' lg='3'>
-              <a href='https://twitter.com/IqbalMaulaY' className='App-link btn btn-outline-light' target='_blank' rel='nooper noreferrer'><table><tr><td width={'10%'}><img src={logo_planq} className='logo-btn' alt="logo" /></td><td><h5>Test</h5><p>a</p></td></tr></table></a>
+            <Col xs='12' md='8' lg='4'>
+              <a href='https://twitter.com/IqbalMaulaY' className='App-link btn btn-outline-light' target='_blank' rel='nooper noreferrer'><table><tr><td><img src={logo_planq} className='logo-btn' alt="logo" /></td><td><p className='head-btn'><bold>PLANQ NETWORK</bold> https://planq.network/</p></td></tr></table></a>
             </Col>
           </Row>
           <br/>
@@ -137,6 +133,7 @@ function App() {
           
           <a href='https://twitter.com/IqbalMaulaY' className='App-link btn btn-outline-light' target='_blank' rel='nooper noreferrer'><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
         </Col>
+        <br/>
       </footer>
     </div>
   );
