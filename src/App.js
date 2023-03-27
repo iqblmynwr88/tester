@@ -4,6 +4,7 @@ import icon_secure from './shield.png';
 import icon_edge from './edge.png';
 import icon_website from './website.png';
 import icon_money from './money.png';
+import logo_planq from './planq.jpg';
 import './App.css';
 
 // For navbar
@@ -101,17 +102,30 @@ function App() {
         </Container>
       </header>
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Container>
+          <Row className='blank-hexa'>
+          </Row>
+          <Row>
+            <Col xs='12' md='12' lg='12' className='hexa-text-center'>
+              <h3>Portofolio | <bold>Joined</bold> as the validator</h3>
+              <br/>
+            </Col>
+            <Col xs='12' md='6' lg='3'>
+              <a href='https://twitter.com/IqbalMaulaY' className='App-link btn btn-outline-light' target='_blank' rel='nooper noreferrer'><table><tr><td><img src={logo_planq} className='logo-btn' alt="logo" /></td><td><b className='head-btn'>Test</b><p className='desc-btn'>https://planq.network/</p></td></tr></table></a>
+            </Col>
+            <Col xs='12' md='6' lg='3'>
+              <a href='https://twitter.com/IqbalMaulaY' className='App-link btn btn-outline-light' target='_blank' rel='nooper noreferrer'><table><tr><td width={'10%'}><img src={logo_planq} className='logo-btn' alt="logo" /></td><td><h5>Test</h5><p>a</p></td></tr></table></a>
+            </Col>
+            <Col xs='12' md='6' lg='3'>
+              <a href='https://twitter.com/IqbalMaulaY' className='App-link btn btn-outline-light' target='_blank' rel='nooper noreferrer'><table><tr><td width={'10%'}><img src={logo_planq} className='logo-btn' alt="logo" /></td><td><h5>Test</h5><p>a</p></td></tr></table></a>
+            </Col>
+            <Col xs='12' md='6' lg='3'>
+              <a href='https://twitter.com/IqbalMaulaY' className='App-link btn btn-outline-light' target='_blank' rel='nooper noreferrer'><table><tr><td width={'10%'}><img src={logo_planq} className='logo-btn' alt="logo" /></td><td><h5>Test</h5><p>a</p></td></tr></table></a>
+            </Col>
+          </Row>
+          <br/>
+        </Container>
+        
       </header>
       <footer className='footer-hexa'>
         <Col xs='12' md='6' lg='6'>
